@@ -1,3 +1,6 @@
+eslint-disable-next-line
+
+
 1 /* Q: What is the syntax of an if/else statement in JavaScript? */
 
 if (condition) {
@@ -105,9 +108,12 @@ will be logged to the console. If the condition is false, the message "y is defi
 
 6 // Q: How do you use the ternary operator to simplify an if/else statement?
 
+
+//ignore errors
+
 let q = 5;
-let results = ( q === 5 ) ? 'q is equal to 5' : ' q is not equal to 5';
-console.log(results)
+let result = ( q === 5 ) ? 'q is equal to 5' : ' q is not equal to 5';
+console.log(result)
 
 // This is equivalent to writing:
 
@@ -119,3 +125,12 @@ if (q === 5) {
   result = "q is not equal to 5";
 }
 console.log(result);
+
+/* The ternary operator is used to assign the value "result" based on the condition "x === 5". If the condition is true, "result" is assigned the value 
+"x is equal to 5". If the condition is false, "result" is assigned the value "x is not equal to 5". Fianlly, the value of "result" is logged to the console. */
+
+
+
+
+
+7
