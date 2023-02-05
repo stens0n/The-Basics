@@ -155,3 +155,28 @@ If the value "a" does not match any of the cases, the default case will be excut
 Each case must be terminated with the "break" statement. If a "break" statement is not included, the execution will fall through to the next case.
 and continue executing the statements in the following cases until "break" is encountered. 
 */
+
+
+
+
+
+8 // Q: Why would you use a switch statement over an if/else
+
+/*
+
+1. Clarity:
+
+When You have multiple conditions to test, a "switch" statement can make your code more readable by grouping related cases together. It also makes it easier to see the
+possible values that a variable can take. 
+
+2. Simplicity:
+
+In some cases, a "switch" statement can be simpler to wrtie and understand than a series of nested "if/else" statements, especially if you have many conditions to test.
+
+
+3. Performance:
+
+In some cases, a "switch" statement can be faster than a series of nested "if/else" statements, especially when the variable being tested has a small number of possible vlaues.
+The "switch" statement uses a table lookup to find the matching case, which can be faster than evaluting a series of conditions. 
+
+*/
