@@ -36,3 +36,21 @@ variable, which is then tested against the condition in the next iteration.
 for (initialization; condition; increment) {
     //code to be executed
 }
+
+// Her is an ex of a for loop that iterates over an array and prints each element:
+
+const array = [1, 2 , 3, 4, 5 ]
+
+for (let i=0; i< array.length; i++){
+    console.log(array[i])
+}
+
+/* 
+
+This Loop iterates over the array and prints each element using the "console.log()" function. The loop starts with
+and index of "0" and continues until the index is no longer less than the length of the array.
+
+
+The "let" keyword allows you to declare a block-scoped variable, which is a good practice for avoiding variable shadowing 
+and other unexpected behavior. In this case, the variable 'i' is only accessible withing the loop block. 
+*/
