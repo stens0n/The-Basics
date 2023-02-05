@@ -134,4 +134,27 @@ the value of "result" is logged to the console. */
 
 
 
-7
+7 // Q: How do you use the switch statement instead of if/else?
+
+// The "swtich" statement can be used instead of multiple "if/else statements to test for multiple values of a variable"
+
+let a = 5;
+switch (a) {
+    case 5:
+        console.log("a is equal to 5");
+        break;
+    case 6:
+        console.log("a is equal to 6");
+        break;
+    default:
+        console.log("a is not equal to 5 or 6");
+        break;
+}
+
+/* Switch statement tests the value of "a" against multiple cases. If the value of "a" is equal to 5, the message
+"x is equal to 5" will be logged to the console. If the value of "a" is equal to6, the message "a is equal to 6" will be logged to the console.
+If the value "a" does not match any of the cases, the default case will be excuted and the message "a is not equal to 5 or 6" wo;; be logged to the console.
+
+Each case must be terminated with the "break" statement. If a "break" statement is not included, the execution will fall through to the next case.
+and continue executing the statements in the following cases until "break" is encountered. 
+*/
