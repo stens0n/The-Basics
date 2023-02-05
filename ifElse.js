@@ -78,3 +78,22 @@ if (x === 5) {
 /* The if/else statement checks if the value "x" is equal to 5. if condition "x === 5" is true, the message
 "x is equal to 5" will be logged to the console. If the condition is false, the message "x is not equal to 5" will be 
 logged to the console*/ 
+
+
+
+
+
+5 // Q: How do you write an if/else statement that checks if a variable is undefined or not?
+
+/* You can use the equality opertor "===" to compare the variable to "undefined" */
+
+let y;
+if (y === undefined) {
+    console.log('x is undefined');
+} else {
+    console.log('x is defined');
+}
+
+/* The variable "y" is declared but not assigned a value, so its value is "undefined". The if/else statement checks if the value of "y"
+is equal to "undefined" using the strict equality operator "===". If the condition "y === undefined" is true, the message "y is undefined"
+will be logged to the console. If the condition is false, the message "y is defined" will be logged to the console. */
