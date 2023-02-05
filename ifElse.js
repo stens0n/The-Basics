@@ -1,6 +1,3 @@
-eslint-disable-next-line
-
-
 1 /* Q: What is the syntax of an if/else statement in JavaScript? */
 
 if (condition) {
