@@ -34,7 +34,7 @@ if (x > 0 && x < 5) {
 
 
 
-What is the difference between if and if/else statements?
+
 How do you nest if/else statements in JavaScript?
 Can an if/else statement only contain a single statement?
 What is the importance of using braces {} in an if/else statement?
