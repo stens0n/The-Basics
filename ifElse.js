@@ -126,8 +126,9 @@ if (q === 5) {
 }
 console.log(result);
 
-/* The ternary operator is used to assign the value "result" based on the condition "x === 5". If the condition is true, "result" is assigned the value 
-"x is equal to 5". If the condition is false, "result" is assigned the value "x is not equal to 5". Fianlly, the value of "result" is logged to the console. */
+/* The ternary operator is used to assign the value "result" based on the condition "x === 5". If the condition is true, "result" 
+is assigned the value "x is equal to 5". If the condition is false, "result" is assigned the value "x is not equal to 5". Fianlly, 
+the value of "result" is logged to the console. */
 
 
 
