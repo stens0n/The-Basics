@@ -61,4 +61,20 @@ belong to which conditions */
 
 
 
-4
+
+4 // Q: How do you write an if/else statement that checks if a variable is equal to a certain value?
+
+
+/* To write and if/else statement that checks if a variable is equal to a certain value, you use the 
+equality opertator "===" */
+
+let x = 5;
+if (x === 5) {
+    console.log('x is equal to 5');
+} else {
+    console.log('x is not equal to 5');
+}
+
+/* The if/else statement checks if the value "x" is equal to 5. if condition "x === 5" is true, the message
+"x is equal to 5" will be logged to the console. If the condition is false, the message "x is not equal to 5" will be 
+logged to the console*/ 
