@@ -97,3 +97,25 @@ if (y === undefined) {
 /* The variable "y" is declared but not assigned a value, so its value is "undefined". The if/else statement checks if the value of "y"
 is equal to "undefined" using the strict equality operator "===". If the condition "y === undefined" is true, the message "y is undefined"
 will be logged to the console. If the condition is false, the message "y is defined" will be logged to the console. */
+
+
+
+
+
+
+6 // Q: How do you use the ternary operator to simplify an if/else statement?
+
+let q = 5;
+let results = ( q === 5 ) ? 'q is equal to 5' : ' q is not equal to 5';
+console.log(results)
+
+// This is equivalent to writing:
+
+let q = 5;
+let result;
+if (q === 5) {
+  result = "q is equal to 5";
+} else {
+  result = "q is not equal to 5";
+}
+console.log(result);
