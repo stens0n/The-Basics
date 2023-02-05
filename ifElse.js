@@ -12,6 +12,8 @@ keyword will be executed if the "condition" is true, and the code inside
 the curly braces following the "else" keyword will be executed if the condition is false. */
 
 
+
+
 2 /* Q: How do you check for multiple conditions in an if/else statement? */
 
 // Use the "&&" (and) or "||" (or) operator. For ex, to check if a variable "x" is greater than 0 and less than 10: 
@@ -31,3 +33,8 @@ if (x > 0 && x < 5) {
 } else {
     // code to be executed if x is not greater than 0 and less than 10 
 }
+
+
+
+
+3 // Q: What is the difference between if and if/else statements?
